@@ -1,0 +1,247 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+.wrapper {
+	background: url(../img/blue-bg.png) no-repeat;
+	height: 1767px;
+	width: 1020px;
+	margin: 0 auto;
+}
+.logo {
+	position: relative;
+    float: left;
+    display: inline-block;
+    top: -290px;
+    left: 45px;
+    width: 211px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+ }
+li {
+	float: left;
+	list-style: none;
+	padding: 0  0 0 10px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+.action {
+	position: relative;
+    top: -308px;
+    left: 340px;
+    display: inline-block;
+}
+.navigation {
+	    position: relative;
+    top: -245px;
+    left: -192px;
+    width: 1301px;
+}
+.navigation ul li {
+	height: 25px;
+    padding-top: 8px;
+    font-size: 13px;
+    background: #609cff;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 8px 13px 0 13px;
+}
+.navigation ul li:first-child {
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+border-left: 2px solid white;
+	}
+	.navigation ul li:last-child {
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+border-right: 2px solid white;
+	}
+	.navigation ul li:hover {
+		background: #676370;
+	}
+	.categories {
+	position: absolute;
+    top: 145px;
+	}
+	.categories a {
+		color: #676370;
+		text-decoration: underline;
+	}
+	.categories li {
+		font-size: 12px;
+		color: #676370;
+	}
+	.news-one {
+		position: relative;
+    height: 255px;
+    width: 507px;
+    border-radius: 5px;
+    background: white;
+    left: 10px;
+    top: -163px;
+	}
+	.title {
+		position: absolute;
+    left: 7px;
+    top: 6px;
+    font-size: 13px;
+    color: white;
+    background: #676370;
+    height: 26px;
+    padding: 7px 5px 0 10px;
+    width: 475px;
+	}
+	.news-one img {
+		float: left;
+		padding: 8px 10px 0px 8px;
+	}
+	.news-one span {
+		font-size: 12px;
+	}
+	.news-one article {
+		line-height: 1;
+	}
+	.news-one-pages li {
+	background: #609cff;
+    border: 1px solid white;
+    text-align: center;
+    height: 21px;
+    width: 27px;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+	}
+	.news-one-pages {
+		position: absolute;
+    top: 155px;
+    left: -33px;
+	}
+	.news-one-text {
+		position: absolute;
+		    top: 41px;
+	}
+	.news-one-pages ul a:last-child li {
+		background: #676370;
+    height: 20px;
+    width: 121px;
+    padding-top: 7px;
+    margin-left: 45px;
+	}
+	.top-ten-news {
+		position: relative;
+		background: white;
+		height: 560px;
+		width: 242px;
+		border-radius: 5px;
+		left: 520px;
+	}
+	.top-ten-title {
+		text-decoration: underline;
+	height: 27px;
+    width: 228px;
+        font-size: 12px;
+    background: #609cff;
+    color: white;
+    top: 6px;
+    position: absolute;
+    left: 6px;
+    text-align: center;
+    padding-top: 6px;
+	}
+	.top-ten-news li {
+		color: #609cff;
+	}
+	.top-ten-news article {
+		text-decoration: underline;
+	}
+	.top-ten-news ul {
+		margin-left: -53px;
+	}
+	.info {
+		position: relative;
+		width: 233px;
+height: 223px;
+		border-radius: 5px;
+		background: white;
+		top: -418px;
+    left: 779px;
+	}
+	.info-title {
+	text-decoration: underline;
+	height: 27px;
+    width: 221px;
+    font-size: 12px;
+    background: #676370;
+    color: white;
+    top: 6px;
+    position: absolute;
+    left: 6px;
+    text-align: center;
+    padding-top: 6px;	
+}
+.info table {
+	position: absolute;
+    top: 48px;
+    width: 224px;
+}
+.info table th {
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: left;
+}
+.other-city-weather {
+	text-align: center;
+	font-size: 11px;
+	color: #609cff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.info table:nth-of-type(2) {
+	position: absolute;
+    top: 148px;
+    width: 224px;
+}
+td {
+	color: #609cff;
+	font-size: 12px;
+}
+.calendar {
+		position: relative;
+		width: 233px;
+		height: 323px;
+		border-radius: 5px;
+		background: white;
+		top: -406px;
+    left: 779px;
+}
+.calendar table {
+	position: absolute;
+    top: 40px;
+    left: 30px;
+    line-height: 2;
+    letter-spacing: 3px;
+    background: url(../img/calendar-bg.png) no-repeat;
+    background-position: center;
+}
+.calendar table th {
+	color: #609cff;
+	font-size: 13px;
+	letter-spacing: 0px;
+	cursor: pointer;
+}
+.calendar table td {
+	    color: #676370;
+	    text-align: center;
+	    font-weight: bold;
+}
+.current-day {
+	background: #676370;
+	color: white!important;
+}
